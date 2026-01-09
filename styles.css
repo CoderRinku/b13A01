@@ -75,3 +75,117 @@ ul {
 .nav-btn:hover {
     background-color: #269252;
 }
+
+.hero {
+    background: linear-gradient(rgba(20, 30, 50, 0.40), rgba(37, 41, 48, 0.40)), url('./assets/hero-bg.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    min-height: calc(100vh - 80px);
+    align-items: center;
+    justify-content: center;
+    padding: 80px 5%;
+    background-color: #F5F5F5;
+}
+
+.badge {
+    display: inline-flex;
+    align-items: center;
+    background-color: white;
+    padding: 8px 16px;
+    border-radius: 50px;
+    color: #2FB365;
+    font-size: 14px;
+    font-weight: 500;
+    margin-bottom: 24px;
+}
+
+.hero-badge-icon {
+    width: 16px;
+    height: auto;
+    margin-right: 8px; 
+
+}
+.Hero-content {
+    display: flex;
+    flex-direction: column; 
+    align-items: center;   
+    text-align: center;    
+    max-width: 800px;      
+    width: 100%;
+}
+
+.hero-title {
+    font-size: 56px; 
+    font-weight: 700;
+    line-height: 1.2;
+    margin-bottom: 24px;
+    letter-spacing: -1px;
+    color: #ffffff;
+
+}
+.text-green {
+
+    color: #2FB365; 
+
+}
+.herodisription {
+    font-size: 18px;
+    line-height: 1.6;
+    color: #d1d5db;
+    margin-bottom: 40px;
+    max-width: 600px;
+}
+.hero-buttons {
+    display: flex;
+    gap: 16px; 
+    align-items: center;
+}
+
+.btn {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    padding: 14px 28px;
+    border-radius: 6px;
+    font-weight: 600;
+    font-size: 16px;
+    transition: all 0.3s ease;
+    text-decoration: none;
+}
+
+.btn-icon {
+    margin-left: 10px;
+    width: 20px;
+    height: auto;
+
+}
+.btn-icon-2 {
+    margin-right: 10px;
+    width: 15px;
+    height: auto;
+}
+
+.btn-primary {
+    background-color: #2FB365;
+    color: white;
+    border: none;
+}
+
+.btn-primary:hover {
+    background-color: #269252;
+}
+
+.btn-secondary {
+    background-color: transparent;
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    color: white;
+}
+
+.btn-secondary:hover {
+    background-color: rgba(255, 255, 255, 0.1);
+    border-color: white;
+}
+
+

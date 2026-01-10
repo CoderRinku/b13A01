@@ -360,4 +360,63 @@ ul {
     color: #627382;
     font-weight: 500;
 }
+.footer {
+    background-color: #001931; 
+    color: white;
+    padding: 60px 5% 40px;
+}
+.footer-container {
+    max-width: 1600px;
+    min-height: au;
+    margin: 0 auto;
+    width: 100%;
+}
+.footer-top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 40px;
+}
+.footer-logo {
+    width: auto;
+    height: 40px;
+}
+.footer-socials {
+    display: flex;
+    flex-direction: column;
+    width: auto;
+    cursor: pointer;
+    opacity: 0.9;
+    transition: opacity 0.2s;
+}
+.social-label {
+    font-size: 16px;
+    font-weight: 500;
+    color: #ffffff; 
+}
 
+.social-img {
+    margin-top: 5px; 
+    height: 24px;
+    width: auto;
+    cursor: pointer;
+    opacity: 0.9;
+    transition: opacity 0.2s;
+}
+
+.social-img:hover {
+    opacity: 1;
+}
+
+.footer-divider {
+    height: 1px;
+    background-color: #627382; 
+    width: 100%;
+    margin-bottom: 30px;
+}
+
+.footer-bottom {
+    text-align: center;
+    font-size: 14px;
+    color: #ffffff;
+}
